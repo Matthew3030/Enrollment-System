@@ -1,0 +1,40 @@
+<form action="insert.php" method="post">
+                <table align="center">
+                    <tr>
+                        <td> Last Name </td>
+                        <td><input type="text" name="LName" required></td>
+                    </tr> 
+                    
+                    <tr>
+                        <td> First Name </td>
+                        <td><input type="text" name="FName" required></td>
+                    </tr>    
+                        
+                    <tr>    
+                        <td> Phone Number </td>
+                        <td><input type="number" name="PNumber" required></td>
+                    </tr> 
+                        
+                    <tr>   
+                        <td> Address </td>
+                        <td><input type="text" name="Address" required></td>
+                    </tr>    
+                        
+                    <tr>    
+                        <td> Sex </td>
+                        <td><input type="radio" name="Sex" value="Male" required> Male </td>
+                        <td><input type="radio" name="Sex" value="Female" required> Female </td>
+                    </tr>
+                    
+                    <tr>
+                        <td> Stud Status </td>
+                        <td><input type="radio" name="Status" value="Old/New" required> Old/New </td>
+                        <td><input type="radio" name="Status"  value="Transferee" required> Transferee </td>
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" name="Submit"> </td>
+                    </tr>
+                </table>
+            </form>
