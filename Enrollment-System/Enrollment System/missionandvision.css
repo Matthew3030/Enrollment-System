@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(2, 110, 38);
+    background-image: url('Carmona-Campus-scaled.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@keyframes fadeIn{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

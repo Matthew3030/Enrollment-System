@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(230, 218, 196);
+}
+table.table-bordered {
+    background-color: rgb(250, 220, 170);
+}
+button.btn-outline-success {
+    margin-right: 5px;
+}

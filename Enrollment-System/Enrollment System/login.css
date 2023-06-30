@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url('cvsuschool.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.logo {
+    position: fixed;
+    height: auto;
+    left: -100px;
+    width: 500px;
+    top: -25px;
+}
